@@ -6,6 +6,10 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    backdrop-filter: blur(10px);
+    margin: 0;
+    padding: 0;
+
 }
 .card_1{
     width: 100%;
@@ -39,10 +43,11 @@ body{
     background: transparent;
     font-family: 'Oswald', sans-serif;
 
-    transition: all 1s;
+    transition: all 0.5s;
 }
 .card_1 button:hover{
     background-color: rgb(70, 70, 70);
+    transition: all 0.5s;
 }
 
 .col_1 .opera{
