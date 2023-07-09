@@ -4,7 +4,7 @@ function display(num){
 }
 function eql(){
     try{
-        ops.value = eval(ops.value)
+        ops.value = ' = ' +eval(ops.value)
     }
     catch{
         alert('invaild')
