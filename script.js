@@ -1,5 +1,4 @@
 let ops = document.getElementById('ans');
-
 function display(num){
     ops.value += num;
 }
@@ -17,3 +16,5 @@ function clr(){
 function del(){
     ops.value= ops.value.slice(0,-1);
 }
+
+  
