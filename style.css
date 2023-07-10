@@ -117,7 +117,7 @@ body{
 .ic ul{
     list-style: none;
 }
-@media (max-width: 900px){
+@media (max-width: 1100px){
     .tb{
         width: 70%;
         height: 130px;
