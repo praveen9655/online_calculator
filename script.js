@@ -1,4 +1,5 @@
-let ops = document.getElementById('ans');
+
+ ops = document.getElementById('ans');
 let result = '';
 function display(num){
     ops.value += num;
